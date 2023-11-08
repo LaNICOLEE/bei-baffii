@@ -17,6 +17,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MatToolbarModule
   ],
   exports: [
+    NavbarComponent,
+    FooterComponent
   ]
 })
 export class SharedModule { }
