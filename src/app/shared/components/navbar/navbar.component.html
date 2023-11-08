@@ -12,4 +12,12 @@
    <button mat-button routerLink="/contacto">Contacto</button>
    <span class="example-spacer"></span>
 
+    <!--Menu despegable para usuarios (registro y login)-->
+   <!--va a contener los formularios de acceso -->
+   <button mat-button [matMenuTriggerFor]="user"><mat-icon>person</mat-icon></button>
+   <mat-menu #user="matMenu">
+    <button mat-menu-item routerLink="/login">Iniciar sesion<mat-icon>person</mat-icon></button>
+    <button mat-menu-item routerLink="/registro">Registrarse<mat-icon>person_add</mat-icon></button>
+  </mat-menu>
+
    </mat-toolbar>
