@@ -26,11 +26,7 @@ import { MatButtonModule } from '@angular/material/button';
   ],
   exports: [
     NavbarComponent,
-    FooterComponent,
-    MatToolbarModule,
-    MatIconModule,
-    MatMenuModule,
-    MatButtonModule
+
   ]
 })
 export class SharedModule { }
