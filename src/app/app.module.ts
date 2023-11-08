@@ -8,11 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { SharedModule } from './shared/shared.module';
 
-// Nos conectamos con la BD; NOS TRAE MÓDULOS NECESARIOS
-import { environment } from 'src/environments/environment';
-import { AngularFireModule } from '@angular/fire/compat'; // CLOUD FIRESTORE
-import { AngularFireAuthModule } from '@angular/fire/compat/auth'; // AUTENTIFICACIÓN
-import { AngularFireStorageModule } from '@angular/fire/compat/storage'; // IMÁGENES
+
 @NgModule({
   declarations: [
     AppComponent
@@ -21,7 +17,7 @@ import { AngularFireStorageModule } from '@angular/fire/compat/storage'; // IMÁ
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    SharedModule,
+
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
     AngularFireStorageModule
