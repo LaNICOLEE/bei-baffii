@@ -17,7 +17,7 @@ import { AngularFireStorageModule } from '@angular/fire/compat/storage'; // IMÁ
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
