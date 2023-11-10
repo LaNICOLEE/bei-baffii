@@ -5,12 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+
 import { SharedModule } from './shared/shared.module';
 
-import { environment } from 'src/environments/environment.prod';
-import {AngularFireModule} from '@angular/fire/compat';
-import {AngularFireAuthModule} from '@angular/fire/compat/auth';
-import {AngularFireStorageModule} from '@angular/fire/compat/storage';
+// FIREBASE
+// Nos conectamos con la BD; NOS TRAE MÓDULOS NECESARIOS
+import { environment } from 'src/environments/environment';
+import { AngularFireModule } from '@angular/fire/compat'; // CLOUD FIRESTORE
+import { AngularFireAuthModule } from '@angular/fire/compat/auth'; // AUTENTIFICACIÓN
+import { AngularFireStorageModule } from '@angular/fire/compat/storage'; // IMÁGENES
 
 @NgModule({
   declarations: [
@@ -20,9 +23,7 @@ import {AngularFireStorageModule} from '@angular/fire/compat/storage';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    //importar modulos globales
     SharedModule,
-    //modulos de firebase
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
     AngularFireStorageModule
