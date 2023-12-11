@@ -1,0 +1,13 @@
+.example-spacer{
+    flex: justify;
+}
+
+.color{
+    background-color:rgba(129, 164, 205, 1);
+}
+.primary{
+    color: rgba(5, 74, 145, 1);
+}
+.mb-3{
+    color:black;
+}
