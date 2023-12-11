@@ -25,7 +25,7 @@ import { AuthService } from './services/auth.service';
   ],
   imports: [
     CommonModule,
-    AuthRoutingModule
+    AuthRoutingModule,
     // MATERIAL
     MatIconModule,
     MatInputModule,
