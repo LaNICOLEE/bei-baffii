@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 // NUEVA INTERFAZ
-import { Perro } from '../../../../models/perros';
+import { Perro } from 'src/app/models/perros';
+
 
 @Component({
   selector: 'app-inicio',
