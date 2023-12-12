@@ -1,7 +1,12 @@
+.nose{
+    background-color:  #054A91;
+}
 .container{
     display: flex;
     padding: 10px;
     justify-content: center;
+    background-color: #00000073; 
+
 }
 
 .titulo{
@@ -25,3 +30,41 @@ p{
     alt:"perro y gato" ;
     width: 100%;
 }
+.contenedor {
+    position: relative;
+    width: 100%; /* Ajusta el ancho según tus necesidades */
+    
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .boton {
+    position: absolute;
+    top: 75%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    padding: 20px 60px;
+    background-color: #00000073; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  .text{
+    position: absolute;
+    top: 25%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+   
+    color: white; /* Color del texto del botón */
+    text-align: right;
+    font-size: 2.2em;
+
+
+  }
