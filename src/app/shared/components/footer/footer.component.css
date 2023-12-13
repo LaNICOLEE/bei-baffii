@@ -1,13 +1,7 @@
-.example-spacer{
-    flex: justify;
+.text{/* Texto de informacion alineado al centro */
+    text-align:center;
 }
 
-.color{
-    background-color:rgba(129, 164, 205, 1);
-}
-.primary{
-    color: rgba(5, 74, 145, 1);
-}
-.mb-3{
-    color:black;
+.color{/* Color del fonfo del footer */
+    background-color:rgba(129, 164, 205, 1); 
 }
