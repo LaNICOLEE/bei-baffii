@@ -1,11 +1,10 @@
-.nose{
+.background{
     background-color:  #054A91;
 }
 .container{
     display: flex;
     padding: 10px;
     justify-content: center;
-    background-color: #00000073; 
 
 }
 
@@ -70,3 +69,27 @@ p{
 
   }
 
+.row{
+  background-color:  rgba(62, 124, 177, 1);
+  text-align: center;
+
+}
+
+.donde 
+{
+  background-color: rgba(62, 124, 177, 1);;
+  padding: 50px 50px;
+  text-align: center;
+
+}
+.contribuir{
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.textoacerca{
+  text-align: justify;
+}
+.container{
+  color: rgb(0, 0, 0);
+  
+}
